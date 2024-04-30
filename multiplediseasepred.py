@@ -23,7 +23,7 @@ working_dir = os.path.dirname(os.path.abspath(__file__))
 
 
 # Loading the saved models
-diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('diabetesmodelnew.sav', 'rb'))
 
 heart_disease_model = pickle.load(open('heart_disease_model.sav', 'rb'))
 
